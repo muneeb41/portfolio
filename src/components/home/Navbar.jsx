@@ -18,7 +18,7 @@ const Navbar = () => {
      data-aos-duration="500"
     >
       <div className="p-2 sm:ml-10 md:ml-4 lg:ml-16">
-        <img src="/logo.png" alt="" className="w-28 h-10" />
+        <img src="./logo.png" alt="" className="w-28 h-10" />
       </div>
 
       {/* Menu */}

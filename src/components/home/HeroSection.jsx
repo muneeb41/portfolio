@@ -24,13 +24,13 @@ const HeroSection = () => {
         speed={600}
       >
         <SwiperSlide>
-          <img src="/slide1.jpg" alt="Slide 1" className="h-screen w-full" />
+          <img src="./slide1.jpg" alt="Slide 1" className="h-screen w-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/slide2.jpg" alt="Slide 2" className="h-screen w-full" />
+          <img src="./slide2.jpg" alt="Slide 2" className="h-screen w-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/slide3.jpg" alt="Slide 3" className="h-screen w-full" />
+          <img src="./slide3.jpg" alt="Slide 3" className="h-screen w-full" />
         </SwiperSlide>
         
       </Swiper>
@@ -51,7 +51,7 @@ const HeroSection = () => {
         </div>
         {/* image */}
         <div className="order-1 mt-10 sm:order-2 sm:mb-28">
-            <img src="/my.jpg" alt="" className="h-40 w-40 lg:h-60 lg:w-60" data-aos="zoom-in" />
+            <img src="./my.jpg" alt="" className="h-40 w-40 lg:h-60 lg:w-60" data-aos="zoom-in" />
         </div>
       </div>
       <div className="absolute bottom-4 z-10 w-full flex justify-center">

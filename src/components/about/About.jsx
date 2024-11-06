@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FaBars,FaTimes,FaGithub,FaLinkedin } from "react-icons/fa";
+import { FaGithub,FaLinkedin } from "react-icons/fa";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
       >
         <h2 className="text-center text-4xl font-semibold pt-3 text-blue-700  ">ABOUT ME</h2>
         <div className="flex flex-col md:flex-row items-center lg:justify-center lg:gap-8">
-          <img src="/about.jpg" alt="" className="w-96 h-80 md:w-72 lg:w-96 md:mb-2" />
+          <img src="./about.jpg" alt="" className="w-96 h-80 md:w-72 lg:w-96 md:mb-2" />
           <div className="flex flex-col gap-3 lg:gap-7 ">
             <p className="text-center px-2 md:px-6 lg:max-w-[50vw]  text-md lg:text-lg">
               I am an aspiring Software Developer with a strong foundation in
