@@ -4,6 +4,7 @@ import flashcardImage from '../assets/images/projectImages/flashcard.png'
 import bookmyshowImage from '../assets/images/projectImages/bookmyshow.png'
 import todoappImage from '../assets/images/projectImages/todoapp.png'
 import skyImage from '../assets/images/projectImages/sky.png'
+import ebayImage from '../assets/images/projectImages/ebay.png'
 
 // project tech import
 import HTML from '../assets/images/skills/html.png'
@@ -25,6 +26,8 @@ import flashcardIcon from '../assets/images/projectIcons/flashcardIcon.jpg'
 import bookmyshowIcon from '../assets/images/projectIcons/bookMyShowIcon.png'
 import todoIcon from '../assets/images/projectIcons/todoIcon.png'
 import skyIcon from '../assets/images/projectIcons/sky.jpeg'
+import ebayIcon from '../assets/images/projectIcons/ebay.jpg'
+
 
 
 const data = [
@@ -39,6 +42,38 @@ const data = [
             'Media Exploration: Allows users to discover trending movies and TV shows, with detailed views available for each media item.',
             'Bookmarks: Enables users to bookmark their favorite media, creating a personalized list of favorites accessible at any time.',
             'Detailed Media Information: Provides in-depth details about movies and TV shows, including cast, genres, ratings, and more.'
+        ],
+        tech:[
+            {
+                name: 'React js',
+                image:REACT
+            },
+            {
+                name: 'Node js',
+                image:NODEJS
+            },
+            {
+                name: 'MongoDB',
+                image:MONGODB
+            },
+            {
+                name: 'Express js',
+                image:EXPRESS
+            },
+            {
+                name: 'Tailwind CSS',
+                image:TAILWIND
+            }
+        ]
+    },
+    { name:'eBay (E-Commerce) App',
+        icon:ebayIcon,
+        source:"https://github.com/muneeb41/Ebay",
+        live: 'https://ebay-client.onrender.com/',
+        image:ebayImage,
+        description:'The eBay App is a full-stack application designed to provide users with access to a vast collection of Products like smart phones , kitch-accessories ect.leveraging the Dummy Json API for fetching Products details. It features user authentication, Products exploration, and personal Add to Cart Features, offering a comprehensive and personalized shoping experience.',
+        features:[
+           "User-Friendly Interface: Developed an intuitive e-commerce platform enabling users to create accounts and purchase desired products effortlessly.", "Modern Front-End Development: Implemented using ReactJS and Tailwind CSS for a responsive and visually appealing front-end, and Redux for efficient state management.", "Secure Back-End Integration: Leveraged NodeJS, MongoDB, Mongoose, and JWT to ensure secure user authentication and protected routes for login and logout functionality.", "Efficient Testing and Data Rendering: Utilized a fake API for rendering e-commerce products and Postman for rigorous backend testing, ensuring reliable performance."
         ],
         tech:[
             {
