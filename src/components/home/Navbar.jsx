@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex cursor-pointer justify-center space-x-9 text-white  p-3 mr-20  text-xl font-semibold">
+      <ul className="hidden md:flex cursor-pointer justify-center space-x-9 text-white  p-3 mr-20  text-xl font-medium">
         <li className="hover-scale hover:text-blue-700">
           <Link className="nav-link " to="home" smooth={true} duration={500} >
             HOME
@@ -146,7 +146,7 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex  items-center ml-[-100px] rounded-r-full  hover:ml-[-5px] duration-300 bg-green-600 ">
               <a
                 className="flex  justify-around w-full text-grey-300 "
-                href="https://docs.google.com/document/d/1-2Jc4xaYK7QtND9kwu0ad11_czcGtSGo/edit?usp=sharing&ouid=112056895426581214632&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/107RG7R5dCRZaHloH5HKEhCrkucnNjgH7/view"
                 target="_blank"
               >
                 <span className="text-white text-xl">Resume </span>

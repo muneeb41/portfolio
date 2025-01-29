@@ -35,7 +35,7 @@ const About = () => {
               <li className=" text-lg px-2 py-1 hover-scale hover:text-green-700 border-2 border-green-500 rounded-lg  text-green-500">
               <a
                 className="flex  justify-between gap-2 w-full  "
-                href="https://docs.google.com/document/d/1-2Jc4xaYK7QtND9kwu0ad11_czcGtSGo/edit?usp=sharing&ouid=112056895426581214632&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/107RG7R5dCRZaHloH5HKEhCrkucnNjgH7/view"
                 target="_blank"
               >
                 <span className=" text-xl">Resume </span>
